@@ -80,6 +80,7 @@ GEM
     crass (1.0.5)
     erubi (1.9.0)
     execjs (2.7.0)
+    ffi (1.11.1)
     ffi (1.11.1-x64-mingw32)
     ffi (1.11.1-x86-mingw32)
     globalid (0.4.2)
@@ -101,12 +102,14 @@ GEM
     mini_portile2 (2.4.0)
     minitest (5.13.0)
     nio4r (2.5.2)
+    nokogiri (1.10.5)
+      mini_portile2 (~> 2.4.0)
     nokogiri (1.10.5-x64-mingw32)
       mini_portile2 (~> 2.4.0)
     nokogiri (1.10.5-x86-mingw32)
       mini_portile2 (~> 2.4.0)
     public_suffix (4.0.1)
-    puma (3.12.1)
+    puma (3.12.2)
     rack (2.0.7)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -187,6 +190,7 @@ GEM
     zeitwerk (2.2.1)
 
 PLATFORMS
+  ruby
   x64-mingw32
   x86-mingw32
 
@@ -195,7 +199,7 @@ DEPENDENCIES
   capybara (~> 2.18)
   coffee-rails (~> 4.2)
   jbuilder (~> 2.5)
-  puma (~> 3.7)
+  puma (~> 3.12)
   rails (>= 5.1.2)
   sass-rails (~> 5.0)
   selenium-webdriver
